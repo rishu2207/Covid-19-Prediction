@@ -2,7 +2,7 @@
 ######################## STAGE 1###############
 
 ###Note that this a diff path where values till 27 June are stored.
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Massachusetts_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Massachusetts_Track.mat")
 
 Random.seed!(150)
 
@@ -261,7 +261,7 @@ println("MA done")
 ######################## STAGE 1###############
 
 ###Note that this a diff path where values till 27 June are stored.
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Georgia_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Georgia_Track.mat")
 
 Random.seed!(150)
 
@@ -372,7 +372,7 @@ using JLD
 save("QFinal_QuarHeatmap_Georgia_QSIR_Deadn.jld",  "β_parameter", p3n[52],"γ_parameter", p3n[53],"δ_parameter", p3n[54], "S_NN_all_loss", S_NN_all_loss, "I_NN_all_loss", I_NN_all_loss, "R_NN_all_loss", R_NN_all_loss,"t", t, "Parameters", p3,"Parameters_copy", p3n, "Loss", Loss)
 
 ##############STAGE 2#########################
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Georgia_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Georgia_Track.mat")
 
 Infected = vars["Georgia_Infected_All"]
 Recovered = vars["Georgia_Recovered_All"]
@@ -544,7 +544,7 @@ println("Georgia done")
 ######################## STAGE 1###############
 
 ###Note that this a diff path where values till 27 June are stored.
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Pennsylvania_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Pennsylvania_Track.mat")
 
 Random.seed!(150)
 
@@ -804,7 +804,7 @@ println("Penn done")
 ######################## STAGE 1###############
 
 ###Note that this a diff path where values till 27 June are stored.
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Florida_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Florida_Track.mat")
 
 Random.seed!(150)
 
@@ -916,7 +916,7 @@ save("QFinal_QuarHeatmap_Florida_QSIR_Deadn.jld",  "β_parameter", p3n[52],"γ_p
 
 ##############STAGE 2#########################
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Florida_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Florida_Track.mat")
 
 Infected = vars["Florida_Infected_All"]
 Recovered = vars["Florida_Recovered_All"]
@@ -1089,7 +1089,7 @@ println("Florida done")
 ######################## STAGE 1###############
 
 ###Note that this a diff path where values till 27 June are stored.
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Virginia_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-final/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Final_Virginia_Track.mat")
 
 Random.seed!(150)
 

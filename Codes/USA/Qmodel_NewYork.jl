@@ -12,7 +12,7 @@ using Random
 using JLD
 
 ######################## STAGE 1###############
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_NY_Trackn.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_NY_Trackn.mat")
 
 Random.seed!(50)
 
@@ -113,7 +113,7 @@ save("QFinal_QuarHeatmap_NYn_QSIR_Deadn.jld",  "β_parameter", p3n[52],"γ_param
 
 ##############STAGE 2#########################
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_NY_Trackn.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_NY_Trackn.mat")
 
 Random.seed!(50)
 
@@ -235,7 +235,7 @@ Reff = D["Reff"]
 Transition = D["Transition"]
 Q_parameter = D["Q_parameter"]
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_NY_Trackn.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_NY_Trackn.mat")
 Infected = vars["NY_Infected_All"]
 Recovered = vars["NY_Recovered_All"]
 Dead= vars["NY_Dead_All"]

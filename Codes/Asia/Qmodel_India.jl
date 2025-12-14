@@ -9,7 +9,7 @@ using DiffEqFlux
 using LaTeXStrings
 
 ######################## STAGE 1###############
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_India_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_India_Track.mat")
 
 Random.seed!(50)
 
@@ -125,7 +125,7 @@ Q_parameter = D["Q_parameter"]
 bar(prediction[4,:],alpha=0.5,label="Data: Infected",color="red")
 
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_India_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_India_Track.mat")
 Infected = vars["India_Infected_All"]
 Recovered = vars["India_Recovered_All"]
 Dead= vars["India_Dead_All"]

@@ -9,7 +9,7 @@ using DiffEqFlux
 using LaTeXStrings
 
 ######################## STAGE 1###############
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Illinois_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Illinois_Track.mat")
 
 Random.seed!(50)
 
@@ -109,7 +109,7 @@ save("QFinal_QuarHeatmap_Illinois_QSIR_Deadn.jld",  "β_parameter", p3n[52],"γ_
 
 ##############STAGE 2#########################
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Illinois_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Illinois_Track.mat")
 
 Random.seed!(50)
 
@@ -253,7 +253,7 @@ Reff = D["Reff"]
 Transition = D["Transition"]
 Q_parameter = D["Q_parameter"]
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Illinois_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Illinois_Track.mat")
 Infected = vars["Illinois_Infected_All"]
 Recovered = vars["Illinois_Recovered_All"]
 Dead= vars["Illinois_Dead_All"]
@@ -294,7 +294,7 @@ Plots.savefig("Clean_QFinal_Quar_Stage2_Illinois_3d.pdf")
 
 #############CALIFORNIA#######
 ######################## STAGE 1###############
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_CA_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_CA_Track.mat")
 
 Random.seed!(50)
 
@@ -394,7 +394,7 @@ save("QFinal_QuarHeatmap_CA_QSIR_Deadn.jld",  "β_parameter", p3n[52],"γ_parame
 
 ##############STAGE 2#########################
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_CA_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_CA_Track.mat")
 
 Random.seed!(50)
 
@@ -539,7 +539,7 @@ Reff = D["Reff"]
 Transition = D["Transition"]
 Q_parameter = D["Q_parameter"]
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_CA_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_CA_Track.mat")
 Infected = vars["CA_Infected_All"]
 Recovered = vars["CA_Recovered_All"]
 Dead= vars["CA_Dead_All"]

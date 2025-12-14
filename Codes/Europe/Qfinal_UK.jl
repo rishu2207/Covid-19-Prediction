@@ -11,7 +11,7 @@ using DiffEqFlux
 using LaTeXStrings
 
 ######################## STAGE 1###############
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_UK_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_UK_Track.mat")
 
 Random.seed!(50)
 
@@ -111,7 +111,7 @@ save("QFinal_QuarHeatmap_UK_QSIR_Deadn.jld",  "β_parameter", p3n[52],"γ_parame
 
 ##############STAGE 2#########################
 
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_UK_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_UK_Track.mat")
 
 Random.seed!(50)
 

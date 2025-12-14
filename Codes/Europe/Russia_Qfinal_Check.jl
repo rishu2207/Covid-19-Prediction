@@ -8,7 +8,7 @@ using LaTeXStrings
 using Random
 ############### RUSSIA##########
 ###########STAGE 1##########
-vars = matread("C:/Users/Raj/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Russia_Track.mat")
+vars = matread("C:/Users/Rishabh/Desktop/2.168/COVID-19-master_latest/COVID-19-master/csse_covid_19_data/csse_covid_19_daily_reports/Rise_Russia_Track.mat")
 
 Random.seed!(50)
 
